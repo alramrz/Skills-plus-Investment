@@ -1,1 +1,5 @@
+git clone https://github.com/NVIDIA/SkillSpector.git
+cd SkillSpector
 
+uv venv .venv && source .venv/bin/activate
+make install
