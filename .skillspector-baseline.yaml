@@ -1,0 +1,386 @@
+# SkillSpector baseline — findings listed here are suppressed on future scans.
+# Edit 'reason' fields and add glob 'rules' as needed. See docs/SUPPRESSION.md.
+version: 2
+scanner_version: 2.12.0
+rules: []
+fingerprints:
+- hash: sha256:d0f771610019478733e55699024ccf53461d2a9a276df0532ad7c1de77840126
+  rule_id: AST4
+  file: .claude/skills/trader-pelosi/ptr.py
+  reason: 'Revisado manualmente 2026-11-10 (commit c8f62b7): falso positivo o riesgo
+    aceptado; ver SECURITY-REVIEW.md'
+- hash: sha256:4e4e18e93af39e08ea42a259486b8dad719c6ec6623e2cd684e85984e48e6c41
+  rule_id: AST7
+  file: .claude/skills/trader-timemachine/timemachine.py
+  reason: 'Revisado manualmente 2026-11-10 (commit c8f62b7): falso positivo o riesgo
+    aceptado; ver SECURITY-REVIEW.md'
+- hash: sha256:10113694991172753f21659fcce27ddfaa48d0b94471d50def49838d40ab5656
+  rule_id: TT3
+  file: .claude/skills/trader-analyst/facts.py
+  reason: 'Revisado manualmente 2026-11-10 (commit c8f62b7): falso positivo o riesgo
+    aceptado; ver SECURITY-REVIEW.md'
+- hash: sha256:d1c9d043143c866d580637fc75e47a599609195f782662004875382c16091c5e
+  rule_id: TT3
+  file: .claude/skills/trader-news/news.py
+  reason: 'Revisado manualmente 2026-11-10 (commit c8f62b7): falso positivo o riesgo
+    aceptado; ver SECURITY-REVIEW.md'
+- hash: sha256:b1297f87937dcaa4ab0dc44ac5b4f8c845a33c305a9c1022e276d52eeebbe8ba
+  rule_id: RP1
+  file: .claude/agents/web-performance-auditor.md
+  reason: 'Revisado manualmente 2026-11-10 (commit c8f62b7): falso positivo o riesgo
+    aceptado; ver SECURITY-REVIEW.md'
+- hash: sha256:c8001b87316a892d1fd2ba6f9a1af409f9c7b7e7eb466dd82fd1eb82b4620c74
+  rule_id: RP1
+  file: .claude/agents/web-performance-auditor.md
+  reason: 'Revisado manualmente 2026-11-10 (commit c8f62b7): falso positivo o riesgo
+    aceptado; ver SECURITY-REVIEW.md'
+- hash: sha256:5ee465f3aa5647affdcf19bbe73f9aaea05066b52b659acad25a662dbac3a781
+  rule_id: RP1
+  file: .claude/agents/web-performance-auditor.md
+  reason: 'Revisado manualmente 2026-11-10 (commit c8f62b7): falso positivo o riesgo
+    aceptado; ver SECURITY-REVIEW.md'
+- hash: sha256:7795c6cd5b9063aee93d7027bc871fa7914b06365cc13e45d6105ee191fd79ba
+  rule_id: RP1
+  file: .claude/agents/web-performance-auditor.md
+  reason: 'Revisado manualmente 2026-11-10 (commit c8f62b7): falso positivo o riesgo
+    aceptado; ver SECURITY-REVIEW.md'
+- hash: sha256:5a04f200d4a7f380d13ba647f0ecc4d84e1706bf8211591cca6ce652c48b24bb
+  rule_id: RP1
+  file: .claude/commands/webperf.md
+  reason: 'Revisado manualmente 2026-11-10 (commit c8f62b7): falso positivo o riesgo
+    aceptado; ver SECURITY-REVIEW.md'
+- hash: sha256:4a3f1f959ed8b4d22e2859c37a21e02e38160aaa7746274f953c9c4191c86cc7
+  rule_id: RP1
+  file: .claude/commands/webperf.md
+  reason: 'Revisado manualmente 2026-11-10 (commit c8f62b7): falso positivo o riesgo
+    aceptado; ver SECURITY-REVIEW.md'
+- hash: sha256:12da1afbb20d598424b7142c651513555ce0100e2735bc94285ecf1a17f7179a
+  rule_id: RP1
+  file: .claude/commands/webperf.md
+  reason: 'Revisado manualmente 2026-11-10 (commit c8f62b7): falso positivo o riesgo
+    aceptado; ver SECURITY-REVIEW.md'
+- hash: sha256:4b739f25457d8c46075f567118b665eab99fc2899bfbd2a054312b798ae0b6a0
+  rule_id: RP1
+  file: .claude/references/accessibility-checklist.md
+  reason: 'Revisado manualmente 2026-11-10 (commit c8f62b7): falso positivo o riesgo
+    aceptado; ver SECURITY-REVIEW.md'
+- hash: sha256:8f1e6b6453d5194bb875cce1c460c0ca7d7f854345bcb7885db8e3aed865f5d2
+  rule_id: RP1
+  file: .claude/references/performance-checklist.md
+  reason: 'Revisado manualmente 2026-11-10 (commit c8f62b7): falso positivo o riesgo
+    aceptado; ver SECURITY-REVIEW.md'
+- hash: sha256:b504453b8ccad4102ae6981b0449d55daa07819d70f43ebd80cb006e162f9a9d
+  rule_id: RP1
+  file: .claude/references/performance-checklist.md
+  reason: 'Revisado manualmente 2026-11-10 (commit c8f62b7): falso positivo o riesgo
+    aceptado; ver SECURITY-REVIEW.md'
+- hash: sha256:b1c3375aa93a9aed1318be880bd729d704e1338ef72c7a4b29f01cb5a5849b1c
+  rule_id: RP1
+  file: .claude/references/performance-checklist.md
+  reason: 'Revisado manualmente 2026-11-10 (commit c8f62b7): falso positivo o riesgo
+    aceptado; ver SECURITY-REVIEW.md'
+- hash: sha256:f346cc7060588c80a320e6b7d8a835d6ec680636b5b9659b0b49835b7d245687
+  rule_id: RP1
+  file: .claude/references/performance-checklist.md
+  reason: 'Revisado manualmente 2026-11-10 (commit c8f62b7): falso positivo o riesgo
+    aceptado; ver SECURITY-REVIEW.md'
+- hash: sha256:d1916a7b6cbdea3c7e89bc63e3d4f9cf9406f22a148e1db65821b1fc2662059d
+  rule_id: RP1
+  file: .claude/skills/browser-testing-with-devtools/SKILL.md
+  reason: 'Revisado manualmente 2026-11-10 (commit c8f62b7): falso positivo o riesgo
+    aceptado; ver SECURITY-REVIEW.md'
+- hash: sha256:2c90deb7f82beddae99cca81af21a59153684ae6827d5388317b119facfbed4b
+  rule_id: RP1
+  file: .claude/skills/ci-cd-and-automation/SKILL.md
+  reason: 'Revisado manualmente 2026-11-10 (commit c8f62b7): falso positivo o riesgo
+    aceptado; ver SECURITY-REVIEW.md'
+- hash: sha256:dd9e256a17b126c2ba598a56a9ec102c97eb4973ef52664e4257377ffdc4ac80
+  rule_id: RP1
+  file: .claude/skills/ci-cd-and-automation/SKILL.md
+  reason: 'Revisado manualmente 2026-11-10 (commit c8f62b7): falso positivo o riesgo
+    aceptado; ver SECURITY-REVIEW.md'
+- hash: sha256:9ba6c86a786b70140d9f1aaf3db4f71b17f0639e150aa8e6814a903d9ba7a2bf
+  rule_id: RP1
+  file: .claude/skills/ci-cd-and-automation/SKILL.md
+  reason: 'Revisado manualmente 2026-11-10 (commit c8f62b7): falso positivo o riesgo
+    aceptado; ver SECURITY-REVIEW.md'
+- hash: sha256:f980c397f6fa916326d59cadf87291d6e06172fdc5d546277d9a8f900cd22058
+  rule_id: RP1
+  file: .claude/skills/ci-cd-and-automation/SKILL.md
+  reason: 'Revisado manualmente 2026-11-10 (commit c8f62b7): falso positivo o riesgo
+    aceptado; ver SECURITY-REVIEW.md'
+- hash: sha256:01e7cbffa768e64d0dd48c880daa13230eb4a1ebebead085a759d14d0c1eb6e4
+  rule_id: RP1
+  file: .claude/skills/ci-cd-and-automation/SKILL.md
+  reason: 'Revisado manualmente 2026-11-10 (commit c8f62b7): falso positivo o riesgo
+    aceptado; ver SECURITY-REVIEW.md'
+- hash: sha256:aebb969a6d77101b1962f80c9ee0012fc01d72c2e9bf4a1aa76e76d0c401ec16
+  rule_id: RP1
+  file: .claude/skills/ci-cd-and-automation/SKILL.md
+  reason: 'Revisado manualmente 2026-11-10 (commit c8f62b7): falso positivo o riesgo
+    aceptado; ver SECURITY-REVIEW.md'
+- hash: sha256:40e848be60ef0a7e17ad4a2fe7950ff878ceffbafa7fd544212b64bc6afc426b
+  rule_id: RP1
+  file: .claude/skills/ci-cd-and-automation/SKILL.md
+  reason: 'Revisado manualmente 2026-11-10 (commit c8f62b7): falso positivo o riesgo
+    aceptado; ver SECURITY-REVIEW.md'
+- hash: sha256:2dcb13a641160bb19f56fd5082c4e46f191f718fe8899867d77b593127ea2e34
+  rule_id: RP1
+  file: .claude/skills/context-engineering/SKILL.md
+  reason: 'Revisado manualmente 2026-11-10 (commit c8f62b7): falso positivo o riesgo
+    aceptado; ver SECURITY-REVIEW.md'
+- hash: sha256:d13283e2d723d0235050b912efeb2c256142a1a7c9458c65b3dfb6b7f8745f1d
+  rule_id: RP1
+  file: .claude/skills/deprecation-and-migration/SKILL.md
+  reason: 'Revisado manualmente 2026-11-10 (commit c8f62b7): falso positivo o riesgo
+    aceptado; ver SECURITY-REVIEW.md'
+- hash: sha256:a76dcc907a9b28194ad6ddc2c73f051bbc893f607a874647403feaa8e2ce27fd
+  rule_id: RP1
+  file: .claude/skills/git-workflow-and-versioning/SKILL.md
+  reason: 'Revisado manualmente 2026-11-10 (commit c8f62b7): falso positivo o riesgo
+    aceptado; ver SECURITY-REVIEW.md'
+- hash: sha256:50d46b5a75979a02ba37b55814aebe6e8c369a6c7f666f2050822495033dd4eb
+  rule_id: RP1
+  file: .claude/skills/incremental-implementation/SKILL.md
+  reason: 'Revisado manualmente 2026-11-10 (commit c8f62b7): falso positivo o riesgo
+    aceptado; ver SECURITY-REVIEW.md'
+- hash: sha256:a5d9fd6efe1583fd2c23ac5025ebe92ab0da8e57688f7d2d4d9fb7bb37455fd3
+  rule_id: RP1
+  file: .claude/skills/performance-optimization/SKILL.md
+  reason: 'Revisado manualmente 2026-11-10 (commit c8f62b7): falso positivo o riesgo
+    aceptado; ver SECURITY-REVIEW.md'
+- hash: sha256:d65eb5e216871881323fc168c22206825ed8403c0b18f6699f34846866a9cf1e
+  rule_id: RP1
+  file: .claude/skills/replica-deploy/SKILL.md
+  reason: 'Revisado manualmente 2026-11-10 (commit c8f62b7): falso positivo o riesgo
+    aceptado; ver SECURITY-REVIEW.md'
+- hash: sha256:cd93bdce23302418b3bc0bd8e453ec148e6eba54cd3ee4e0da06375f284cd188
+  rule_id: RP1
+  file: .claude/skills/replica-test/SKILL.md
+  reason: 'Revisado manualmente 2026-11-10 (commit c8f62b7): falso positivo o riesgo
+    aceptado; ver SECURITY-REVIEW.md'
+- hash: sha256:56edafc3265fc9b5454ef6cd8f818b34a772f025e8f01f76cf916525455a4acf
+  rule_id: RP1
+  file: .claude/skills/replica-test/SKILL.md
+  reason: 'Revisado manualmente 2026-11-10 (commit c8f62b7): falso positivo o riesgo
+    aceptado; ver SECURITY-REVIEW.md'
+- hash: sha256:9bfa580ae911f378577458acfb1138a46e27d44927bd72c795ddfb4d4a25bd25
+  rule_id: AS3
+  file: .claude/agents/web-performance-auditor.md
+  reason: 'Revisado manualmente 2026-11-10 (commit c8f62b7): falso positivo o riesgo
+    aceptado; ver SECURITY-REVIEW.md'
+- hash: sha256:81e190318b9694f08e966470efbd2d73d7d974e692ee49476085704763126611
+  rule_id: AS1
+  file: .claude/references/orchestration-patterns.md
+  reason: 'Revisado manualmente 2026-11-10 (commit c8f62b7): falso positivo o riesgo
+    aceptado; ver SECURITY-REVIEW.md'
+- hash: sha256:a37dcc6ca86fd7368ca86b1589a8e8509c4031d8e190eb9117fe6c9b6efc79d0
+  rule_id: AS3
+  file: .claude/skills/spec-driven-development/SKILL.md
+  reason: 'Revisado manualmente 2026-11-10 (commit c8f62b7): falso positivo o riesgo
+    aceptado; ver SECURITY-REVIEW.md'
+- hash: sha256:320b206e79af95c6714aa737f92b2efa27922e5df826731f5f3a92e7c44f0e38
+  rule_id: AS3
+  file: .claude/skills/spec-driven-development/SKILL.md
+  reason: 'Revisado manualmente 2026-11-10 (commit c8f62b7): falso positivo o riesgo
+    aceptado; ver SECURITY-REVIEW.md'
+- hash: sha256:875011a33d9b1fb8391c26a3316d7f4d2e48d2816dcf030f56bf874841721ad7
+  rule_id: AS3
+  file: .claude/skills/spec-driven-development/SKILL.md
+  reason: 'Revisado manualmente 2026-11-10 (commit c8f62b7): falso positivo o riesgo
+    aceptado; ver SECURITY-REVIEW.md'
+- hash: sha256:9cfa1c01d0d91a0eaaeb96c433b91fa1ea1b80607f9ef5d82acec1ff9c569111
+  rule_id: AR2
+  file: .claude/skills/arena/SKILL.md
+  reason: 'Revisado manualmente 2026-11-10 (commit c8f62b7): falso positivo o riesgo
+    aceptado; ver SECURITY-REVIEW.md'
+- hash: sha256:1cee283e55a727222ea42125829831d2f78429cadab2262edd55eed7a6ce3e65
+  rule_id: AR2
+  file: .claude/skills/shipping-and-launch/SKILL.md
+  reason: 'Revisado manualmente 2026-11-10 (commit c8f62b7): falso positivo o riesgo
+    aceptado; ver SECURITY-REVIEW.md'
+- hash: sha256:1e8d694a6deaac7bd358cfa80967a2f279815d09e6fb0e7cb32db69bdfbbcf7d
+  rule_id: AR2
+  file: .claude/skills/trader-timemachine/SKILL.md
+  reason: 'Revisado manualmente 2026-11-10 (commit c8f62b7): falso positivo o riesgo
+    aceptado; ver SECURITY-REVIEW.md'
+- hash: sha256:d226dcbf150e47cdc8a521d5654d1d596b233a85aedc9e5be51482532235267d
+  rule_id: E1
+  file: .claude/skills/trader-analyst/SKILL.md
+  reason: 'Revisado manualmente 2026-11-10 (commit c8f62b7): falso positivo o riesgo
+    aceptado; ver SECURITY-REVIEW.md'
+- hash: sha256:fb649f17843431865f60e1c3cfeaba2a5b5a9bd5fa37fc6beb73fb98391baecf
+  rule_id: E1
+  file: .claude/skills/trader-analyst/facts.py
+  reason: 'Revisado manualmente 2026-11-10 (commit c8f62b7): falso positivo o riesgo
+    aceptado; ver SECURITY-REVIEW.md'
+- hash: sha256:0af3e74fee4b4416f74c179d5c8aebba0e9a9d8b08413f5c435273f55f91266c
+  rule_id: E1
+  file: .claude/skills/trader-analyst/facts.py
+  reason: 'Revisado manualmente 2026-11-10 (commit c8f62b7): falso positivo o riesgo
+    aceptado; ver SECURITY-REVIEW.md'
+- hash: sha256:08ec70bf59749025abadc8f0a63e2fb648c4a51681b94364f03137d0f04ad068
+  rule_id: E1
+  file: .claude/skills/trader-analyst/facts.py
+  reason: 'Revisado manualmente 2026-11-10 (commit c8f62b7): falso positivo o riesgo
+    aceptado; ver SECURITY-REVIEW.md'
+- hash: sha256:a1bf902bf707070caae3d74d74b65b8a44db26e4d9b7e7bccaad8c98524b77f0
+  rule_id: E1
+  file: .claude/skills/trader-analyst/facts.py
+  reason: 'Revisado manualmente 2026-11-10 (commit c8f62b7): falso positivo o riesgo
+    aceptado; ver SECURITY-REVIEW.md'
+- hash: sha256:72faf56146c2dc2c164b6b45524271cea09942358ff44eb8d450d1e92246f359
+  rule_id: E1
+  file: .claude/skills/trader-broker/SKILL.md
+  reason: 'Revisado manualmente 2026-11-10 (commit c8f62b7): falso positivo o riesgo
+    aceptado; ver SECURITY-REVIEW.md'
+- hash: sha256:f1c16b436b7a980965e5f7781e21c2415db6d9b129648987c91e8a4ca82801b7
+  rule_id: EA4
+  file: .claude/references/performance-checklist.md
+  reason: 'Revisado manualmente 2026-11-10 (commit c8f62b7): falso positivo o riesgo
+    aceptado; ver SECURITY-REVIEW.md'
+- hash: sha256:3c0f878f46f1e60eb6c8538a5f29abb13c711bc82d17c8244f63e92b9c9c69db
+  rule_id: EA3
+  file: .claude/skills/code-simplification/SKILL.md
+  reason: 'Revisado manualmente 2026-11-10 (commit c8f62b7): falso positivo o riesgo
+    aceptado; ver SECURITY-REVIEW.md'
+- hash: sha256:cc0211739614f47d86b4c17f2ba294e48b9cab8b8e01b0e5237c8fe29c9a51a0
+  rule_id: EA2
+  file: .claude/skills/context-engineering/SKILL.md
+  reason: 'Revisado manualmente 2026-11-10 (commit c8f62b7): falso positivo o riesgo
+    aceptado; ver SECURITY-REVIEW.md'
+- hash: sha256:fe49ca315ca199c5b49f72571eb5a209731e96b1e7968ac9d9cb6dc35cf8ca4d
+  rule_id: EA2
+  file: .claude/skills/context-engineering/SKILL.md
+  reason: 'Revisado manualmente 2026-11-10 (commit c8f62b7): falso positivo o riesgo
+    aceptado; ver SECURITY-REVIEW.md'
+- hash: sha256:4c36617c2047434395a70d6e5c60da43e2cf6d24a0d2d66c41e6f31d0e7c0860
+  rule_id: EA5
+  file: .claude/skills/doubt-driven-development/SKILL.md
+  reason: 'Revisado manualmente 2026-11-10 (commit c8f62b7): falso positivo o riesgo
+    aceptado; ver SECURITY-REVIEW.md'
+- hash: sha256:ef132b26b0fa236cb40fc460a81d7251fd032baa6d3d39bb7440cda3039a99b9
+  rule_id: EA2
+  file: .claude/skills/planning-and-task-breakdown/SKILL.md
+  reason: 'Revisado manualmente 2026-11-10 (commit c8f62b7): falso positivo o riesgo
+    aceptado; ver SECURITY-REVIEW.md'
+- hash: sha256:f358d3e51200e8bf19393e841fbe489222370d68199522b0caf7a9206c37814a
+  rule_id: EA2
+  file: .claude/skills/planning-and-task-breakdown/SKILL.md
+  reason: 'Revisado manualmente 2026-11-10 (commit c8f62b7): falso positivo o riesgo
+    aceptado; ver SECURITY-REVIEW.md'
+- hash: sha256:9d4d32517f9611dcc093f2c7f20fa949d4dd4041c4e931faa14014e2534b0736
+  rule_id: EA2
+  file: .claude/skills/security-and-hardening/SKILL.md
+  reason: 'Revisado manualmente 2026-11-10 (commit c8f62b7): falso positivo o riesgo
+    aceptado; ver SECURITY-REVIEW.md'
+- hash: sha256:52058d21df82f851d1f2f9ad76eccac9bd8f22bbfd92f8f01d1e60c72d873c27
+  rule_id: EA2
+  file: .claude/skills/source-driven-development/SKILL.md
+  reason: 'Revisado manualmente 2026-11-10 (commit c8f62b7): falso positivo o riesgo
+    aceptado; ver SECURITY-REVIEW.md'
+- hash: sha256:4660f4076e9c32d97bfb5fa8f0eb0a737ca0d9828a2919bc74a977dba34701fc
+  rule_id: EA2
+  file: .claude/skills/spec-driven-development/SKILL.md
+  reason: 'Revisado manualmente 2026-11-10 (commit c8f62b7): falso positivo o riesgo
+    aceptado; ver SECURITY-REVIEW.md'
+- hash: sha256:8148c063262bf481cead56ede21d67a19c0b4de6e0480ded275ca574141c52ab
+  rule_id: EA2
+  file: .claude/skills/test-driven-development/SKILL.md
+  reason: 'Revisado manualmente 2026-11-10 (commit c8f62b7): falso positivo o riesgo
+    aceptado; ver SECURITY-REVIEW.md'
+- hash: sha256:f100981de742ea5523084ae94984872492ee31b06c34840b4bf6681f206de3ce
+  rule_id: EA2
+  file: .claude/skills/using-agent-skills/SKILL.md
+  reason: 'Revisado manualmente 2026-11-10 (commit c8f62b7): falso positivo o riesgo
+    aceptado; ver SECURITY-REVIEW.md'
+- hash: sha256:d6c37e214abcc4bb99ac03d898c1abadc065b4e8af3738dd958f137a8ecc33ab
+  rule_id: EA2
+  file: .claude/skills/using-agent-skills/SKILL.md
+  reason: 'Revisado manualmente 2026-11-10 (commit c8f62b7): falso positivo o riesgo
+    aceptado; ver SECURITY-REVIEW.md'
+- hash: sha256:2a3b2d4dbaae630c17939504de1c3a9072d8bb28d564e2cc10661c5a0ec6bb58
+  rule_id: MP3
+  file: .claude/skills/security-and-hardening/SKILL.md
+  reason: 'Revisado manualmente 2026-11-10 (commit c8f62b7): falso positivo o riesgo
+    aceptado; ver SECURITY-REVIEW.md'
+- hash: sha256:d5eebff98453f04d85f695815f9910697b6ab584bca49e887d83cab7a5c618be
+  rule_id: PE3
+  file: .claude/skills/ci-cd-and-automation/SKILL.md
+  reason: 'Revisado manualmente 2026-11-10 (commit c8f62b7): falso positivo o riesgo
+    aceptado; ver SECURITY-REVIEW.md'
+- hash: sha256:b65e688603162243fb528529fa71980b7fb44e9d5150de9d1c8edc691fde754e
+  rule_id: PE3
+  file: .claude/skills/context-engineering/SKILL.md
+  reason: 'Revisado manualmente 2026-11-10 (commit c8f62b7): falso positivo o riesgo
+    aceptado; ver SECURITY-REVIEW.md'
+- hash: sha256:7f52b5aa00a59fde229fd6d8331f997687138178a0b5a8f18d3389eb46932ffd
+  rule_id: PE3
+  file: .claude/skills/security-and-hardening/references/hardening-patterns.md
+  reason: 'Revisado manualmente 2026-11-10 (commit c8f62b7): falso positivo o riesgo
+    aceptado; ver SECURITY-REVIEW.md'
+- hash: sha256:409ef3d75c11061ee7c586f458b57cb7162b3219cb26f59e4a71438cfaed3944
+  rule_id: PE3
+  file: .claude/skills/security-and-hardening/references/hardening-patterns.md
+  reason: 'Revisado manualmente 2026-11-10 (commit c8f62b7): falso positivo o riesgo
+    aceptado; ver SECURITY-REVIEW.md'
+- hash: sha256:9ff8bd41a976e5c215c6f34cba2887e5d961a6826f86d561a1797239a3f637c5
+  rule_id: PE3
+  file: .claude/skills/security-and-hardening/references/hardening-patterns.md
+  reason: 'Revisado manualmente 2026-11-10 (commit c8f62b7): falso positivo o riesgo
+    aceptado; ver SECURITY-REVIEW.md'
+- hash: sha256:8cc455680de70600706fab051f4ae1623b129afb48149f1f38f4cda92ebc6e39
+  rule_id: PE3
+  file: .claude/skills/security-and-hardening/references/hardening-patterns.md
+  reason: 'Revisado manualmente 2026-11-10 (commit c8f62b7): falso positivo o riesgo
+    aceptado; ver SECURITY-REVIEW.md'
+- hash: sha256:8c2a5e7194afb4b39127f7da2bcc5f4da7aefcfc650963efd02c6b2a44b3de66
+  rule_id: PE3
+  file: .claude/skills/security-and-hardening/references/hardening-patterns.md
+  reason: 'Revisado manualmente 2026-11-10 (commit c8f62b7): falso positivo o riesgo
+    aceptado; ver SECURITY-REVIEW.md'
+- hash: sha256:1ed3715838c183b2133c95f99e505661bc4a6de33d1d9e5e69c113ab12a8ea45
+  rule_id: P1
+  file: .claude/skills/browser-testing-with-devtools/SKILL.md
+  reason: 'Revisado manualmente 2026-11-10 (commit c8f62b7): falso positivo o riesgo
+    aceptado; ver SECURITY-REVIEW.md'
+- hash: sha256:cc71224ac443e9cb2989590cd807b06e7391855210b5f30f4a07dbdb5b0e9edb
+  rule_id: P1
+  file: .claude/skills/source-driven-development/SKILL.md
+  reason: 'Revisado manualmente 2026-11-10 (commit c8f62b7): falso positivo o riesgo
+    aceptado; ver SECURITY-REVIEW.md'
+- hash: sha256:858379cb3c5e66429c969601bb6fdb695a2fdbf0d51142332ce1854e78b1553d
+  rule_id: RA1
+  file: .claude/skills/code-simplification/SKILL.md
+  reason: 'Revisado manualmente 2026-11-10 (commit c8f62b7): falso positivo o riesgo
+    aceptado; ver SECURITY-REVIEW.md'
+- hash: sha256:1a9d810c3044dd4d1c0cb71bdda8be2f31c3c7fecce9a5ca50e7b7b8f8f74838
+  rule_id: SSRF1
+  file: .claude/skills/security-and-hardening/references/hardening-patterns.md
+  reason: 'Revisado manualmente 2026-11-10 (commit c8f62b7): falso positivo o riesgo
+    aceptado; ver SECURITY-REVIEW.md'
+- hash: sha256:28b9aec44c429044f8778cc27a7f8910f9a355dc07521e52a86cd3818d432994
+  rule_id: TM1
+  file: .claude/skills/git-workflow-and-versioning/SKILL.md
+  reason: 'Revisado manualmente 2026-11-10 (commit c8f62b7): falso positivo o riesgo
+    aceptado; ver SECURITY-REVIEW.md'
+- hash: sha256:1ae154d3fff9c6fba3f2ebd5f940eb53a39e80f69a8cfc4bbe128af6943a9366
+  rule_id: YR4
+  file: .claude/skills/browser-testing-with-devtools/SKILL.md
+  reason: 'Revisado manualmente 2026-11-10 (commit c8f62b7): falso positivo o riesgo
+    aceptado; ver SECURITY-REVIEW.md'
+- hash: sha256:f90f1ffb088bba652371b671523db2de6ea61c0e7b6f1e127d864a549a6f548e
+  rule_id: YR4
+  file: .claude/skills/replica-launch/listing.py
+  reason: 'Revisado manualmente 2026-11-10 (commit c8f62b7): falso positivo o riesgo
+    aceptado; ver SECURITY-REVIEW.md'
+- hash: sha256:d21dc358d0610353dba1f59c7807e3f9cdc818eeaf7ec365d14cdd7f88925e72
+  rule_id: YR4
+  file: .claude/skills/security-and-hardening/SKILL.md
+  reason: 'Revisado manualmente 2026-11-10 (commit c8f62b7): falso positivo o riesgo
+    aceptado; ver SECURITY-REVIEW.md'
+- hash: sha256:331108ebdf59580e8a48e26575ebc1c6b062f6fd4d792e035dfa26225f1766e0
+  rule_id: YR4
+  file: .claude/skills/source-driven-development/SKILL.md
+  reason: 'Revisado manualmente 2026-11-10 (commit c8f62b7): falso positivo o riesgo
+    aceptado; ver SECURITY-REVIEW.md'
